@@ -5,10 +5,10 @@
 
 header{
     padding:2em;
-    background-image:  url("images/X-Files.png");
+    background-image:  url("x-files-banner.jpg");
 background-repeat: no-repeat;
 background-position: top right;
-background: url("images/X-Files.png") no-repeat top right;
+background: url("x-files-banner.jpg") no-repeat top right;
 color: midnightblue;
 }
 
@@ -16,3 +16,25 @@ color: midnightblue;
     width: 33%;
     color: #fff;
 }
+/*Navigation bar*/
+
+nav li{
+        display: inline-block;
+        width: 15em;
+        padding: 1em;
+        margin-right: 2em;
+        background-color: black;
+        text-align: center;
+}
+
+nav a{
+    color: azure;
+    text-decoration: none;
+    font-size: 2em;
+}
+nav{
+    background-color: darkgrey;
+    padding: 0.1em 0; 
+}
+
+
