@@ -1,0 +1,18 @@
+#wrapper {
+    max-width: 1200px;
+    
+}
+
+header{
+    padding:2em;
+    background-image:  url("images/X-Files.png");
+background-repeat: no-repeat;
+background-position: top right;
+background: url("images/X-Files.png") no-repeat top right;
+color: midnightblue;
+}
+
+.lead{
+    width: 33%;
+    color: #fff;
+}
