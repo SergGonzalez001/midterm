@@ -5,10 +5,7 @@
 
 header{
     padding:2em;
-    background-image:  url("x-files-banner.jpg");
-background-repeat: no-repeat;
-background-position: top right;
-background: url("x-files-banner.jpg") no-repeat top right;
+background: url("x-files-banner.jpg") no-repeat top left;
 color: midnightblue;
 }
 
@@ -36,5 +33,20 @@ nav{
     background-color: darkgrey;
     padding: 0.1em 0; 
 }
+.col{
+    float:left;
+    width:48%;
+    margin-right:2%;
+    }
+    
+nav li:last-child{
+    margin-right:0;
+    
+}
 
 
+.episodes{
+display: flex;
+flex-wrap: wrap;
+}
+.card{width: 30%;}
