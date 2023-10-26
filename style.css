@@ -50,3 +50,11 @@ display: flex;
 flex-wrap: wrap;
 }
 .card{width: 30%;}
+
+.card img{
+width:100%;
+}
+
+.card p, .card h3{
+    margin:1em;
+}
