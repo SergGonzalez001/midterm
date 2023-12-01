@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+border: none;
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+
+}
+
+.topNav nav{
+
+clear: right; /* clears right floats */
+}
+
+.topNav ul{
+    display: none;
+}
+
+#menu{
+float:right;
+
+}
+.programNav a{
+display: block;
+padding: 10px;
+border:solid 1px #ccc;
+}
+.dropdown{
+    display: none;
+}
+.programNav li:hover .dropdown{
+    display: block;
+}
+
+.banner{
+padding: 2em;
+padding-top: 3em;
+
+background-size:cover;
+}
+
+.banner p{
+background-color:azure;
+font-size:1.5em;
+padding:1em;
+
+}
+
+.btn{
+display: block;
+width:100px;
+background-color:blue;
+padding:0.5em;
+text-transform:uppercase;
+color: #fff;
+}
+
+width:100%;
+}
+.date{
+    margin-top:.5em;
+}
+footer{
+font-size: smaller;
+}
+
+@media (min-width:768px){
+    main{
+        display:grid;
+        grid-template: collumns; 1fr 300;
+        grid: gap 1em;
+
+    .flex-container:
+    display: flex;
+
+}
+.program-select{
+    position:absolute;
+    width:100%;
+}
