@@ -49,7 +49,7 @@ float: right; /* clears right floats */
 float:right;
 
 }
-.programNav a{
+.programNav {
 clear: both;
 }
 .dropdown{
@@ -150,7 +150,7 @@ justify-content: space-between;
     display: none;
 }
 
-.topNav li, .topNav form, .topNav input .topNav ul{
+.topNav li, .topNav form, .topNav input, .topNav ul{
     display: inline;
     margin-left:1em;
 }
