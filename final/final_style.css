@@ -50,8 +50,17 @@ float:right;
 
 }
 .programNav {
+    margin-top: 2em; margin-bottom: 1em;
 clear: both;
 }
+.programNav li{
+    margin-bottom: .5em; 
+    margin-top: .5em;
+}
+
+
+
+
 .dropdown{
     display: none;
 }
@@ -165,3 +174,16 @@ margin-right:0;
 
 
 }/* closing media query */
+
+
+.program-page{
+    display: block;
+
+.proograms{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    /*grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap:1em;
+}
+
+}
