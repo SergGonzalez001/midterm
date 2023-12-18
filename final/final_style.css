@@ -125,6 +125,12 @@ font-size: smaller;
     border:solid 1px #ccc;
 }
 
+.programs a{
+text-decoration: none;
+color: black;
+
+}
+
 @media (min-width:768px){
     main{
         display:grid;
@@ -182,13 +188,13 @@ margin-right:0;
 }
 
 
-}/* closing media query */
+
 
 
 .program-page{
     display: block;
-
-.proograms{
+}
+.programs{
     display: grid;
     grid-template-columns:  repeat(3, 1fr);
     /*grid-template-columns: 1fr 1fr 1fr; */
@@ -196,3 +202,5 @@ margin-right:0;
 }
 
 }
+
+}/* closing media query */
